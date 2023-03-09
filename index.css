@@ -6,7 +6,7 @@
 }
 
 body { 
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 
@@ -16,6 +16,7 @@ body {
 
 .moving-clouds {
     position: absolute; 
+    z-index: 1;
     bottom: 0;
     left: 0;
     width: 250.625em;
