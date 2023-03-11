@@ -23,7 +23,7 @@ aggregate marks, contact number, email etc. and also upload their CV.
 The recruiter can see the details about the college posted by admin and can   
 also see the details of students.
 
-#Alumni: 
+# Alumni: 
 There will also be an alumni section where he can share important info
 regarding placement help, referrals of student in company etc.
 
@@ -31,13 +31,13 @@ regarding placement help, referrals of student in company etc.
 This will create an automatic resume by taking the details of students or we will give an overleaf template
 
 # Forum: 
-...Here students and alumni can discuss and get info about any query related to placement.
+Here students and alumni can discuss and get info about any query related to placement.
 
 # Placement Record: 
-...All the records of students getting placed along with company name, package details etc. will be displayed.
+All the records of students getting placed along with company name, package details etc. will be displayed.
 
 # Internship: 
-...Here students can check the current internship opportunities posted by the TPO.
+Here students can check the current internship opportunities posted by the TPO.
 
 
 # PROPOSED BY GROUP NO 12:
