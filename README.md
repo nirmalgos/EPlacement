@@ -31,17 +31,17 @@ regarding placement help, referrals of student in company etc.
 This will create an automatic resume by taking the details of students or we will give an overleaf template
 
 # Forum: 
-Here students and alumni can discuss and get info about any query related to placement.
+...Here students and alumni can discuss and get info about any query related to placement.
 
 # Placement Record: 
-All the records of students getting placed along with company name, package details etc. will be displayed.
+...All the records of students getting placed along with company name, package details etc. will be displayed.
 
 # Internship: 
-Here students can check the current internship opportunities posted by the TPO.
+...Here students can check the current internship opportunities posted by the TPO.
 
 
 # PROPOSED BY GROUP NO 12:
-BRIJ KUMAR GUPTA
-DEEP BAISHYA
-DEEPJYOTI DAS
-NIRMALENDU GOSWAMI
+## BRIJ KUMAR GUPTA <br>
+## DEEP BAISHYA <br>
+## DEEPJYOTI DAS <br>
+## NIRMALENDU GOSWAMI
