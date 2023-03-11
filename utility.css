@@ -1,4 +1,7 @@
 .basic_mrgn{
+    color: #012970;
+    font-weight: 700;
+    font-size: 23px;
     margin: 1.5rem;
 }
 .mlr{
@@ -7,5 +10,13 @@
 .cmpnylogo{
     width: 5rem;
     height: 3rem;
+}
+
+.abt_bvec{
+    color: #012970;
+    font-weight: 700;
+    font-size: 23px;
+    margin: 1.5rem;
+    text-align: center;
 }
  
