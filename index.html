@@ -7,20 +7,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="index.css">
   <link rel="stylesheet" href="utility.css">
+  <link rel="shortcut icon" href="./assets/images/bvec.jpg" type="image/x-icon">
   <title>BVEC Training and Placement</title>
 </head>
 
 <body>
-  <div class="container">
-    <div class="moving-clouds"></div>
+  <!-- All href will open in new tab -->
+  <!-- <base href="" target="_blank"> -->
 
-    <section class="hero">
-      <nav class="navbar">
-        <ul>
+  <div id="show"><i class="fas fa-solid fa-bars basic_mrgn" id="s" onclick="show()"></i></div>
+  <div class="moving-clouds"></div>
+  <div class="container">
+
+    <header class="hero">
+      <nav id="navbar">
+        <ul id="ul">
           <li><a href="index.html">Home</a></li>
           <li><a href="index.html">Notification</a></li>
           <li><a href="index.html">Internship</a></li>
-          <li><a href="index.html">For Students <i class="fas fa-caret-down"></i></a>
+          <li><a href="JavaScript:void(0)">For Students <i class="fas fa-caret-down"></i></a>
             <div class="dropdown_menu">
               <ul><a href="#"><i class="fa-solid fa-right-to-bracket"></i>&nbsp Student Login</a></ul>
               <ul><a href="#"><i class="fa-regular fa-message"></i>&nbsp Forum</a></ul>
@@ -28,7 +33,7 @@
               <ul><a href="#">Placement Policies</a></ul>
             </div>
           </li>
-          <li><a href="index.html">For Recruiters <i class="fas fa-caret-down"></i></a>
+          <li><a href="JavaScript:void(0)">For Recruiters <i class="fas fa-caret-down"></i></a>
             <div class="dropdown_menu">
               <ul><a href="#"><i class="fa-solid fa-right-to-bracket"></i>&nbsp Recruiter Login</a></ul>
               <ul><a href="#">Placement Policies</a></ul>
@@ -37,26 +42,31 @@
               <ul><a href="#">Facilities</a></ul>
             </div>
           </li>
-          <li><a href="index.html">Alumni <i class="fas fa-caret-down"></i></a>
+          <li><a href="JavaScript:void(0)">Alumni <i class="fas fa-caret-down"></i></a>
             <div class="dropdown_menu">
               <ul><a href="#"><i class="fa-solid fa-right-to-bracket"></i>&nbsp Alumni Login</a></ul>
             </div>
           </li>
-          <li><a href="index.html">Contact Us <i class="fas fa-caret-down"></i></a>
+          <li><a href="JavaScript:void(0)">Contact Us <i class="fas fa-caret-down"></i></a>
             <div class="dropdown_menu">
               <ul><a href="#">Placement Officer</a></ul>
               <ul><a href="#">Student Coordinator</a></ul>
             </div>
           </li>
-
+          <li><a
+              href="https://www.linkedin.com/company/training-and-placement-cell-barak-valley-engineering-college/about/"
+              target="_blank">
+              <i class="fa fa-linkedin" aria-hidden="true"
+                style="background-color: blue;padding: 5px;border-radius: 30%;"></i>
+            </a>
+          </li>
         </ul>
       </nav>
-    </section>
+    </header>
 
     <section class="PlcmntRcrd basic_mrgn">
       <div align="center">
-        <h1>Our  Students  Got  Placed  in</h1>
-        <br>
+        <h1>Our Students Got Placed in</h1> 
       </div>
       <marquee class="cmpny_logo">
         <img src="./assets/images/sony.png" alt="" class="cmpnylogo mlr">
@@ -77,10 +87,17 @@
     </section>
     <br>
 
-    <section class="abt_bvec">
+    <section class="abt_bvec basic_mrgn">
       <h1>About BVEC</h1>
       <p>
-
+        The endeavor of the teaching fraternity has always been overall development of the students so that innovative
+        thinking can be embedded in the minds of young students. Furthermore, this Institute has emphasized on Industry
+        Academia Collaboration and as a result of which we have Memorandum of Understanding (MoU) with Ziroh Labs,
+        C-DAC, MSME to name a few where students can be exposed to the latest trends and techniques prevailing in
+        industry along with curriculum. The institute tasted quite a success in terms of Placement Scenario as we had a
+        large number of Multi-National Companies and Tech Giants recruiting our students along with some of the best
+        startups of India. A few names to be spelt out are TCS, Cognizant, Mind tree, ATLAN along with many others. The
+        highest package recorded till date is 10 LPA with an average package ranging from 3.6 LPA to 4.2 LPA every year.
       </p>
 
     </section>
@@ -90,7 +107,31 @@
 
 
     <script src="https://kit.fontawesome.com/c5009e06c9.js" crossorigin="anonymous"></script>
+    <script>
+      // toggle of navbar on mobile show hide
+      function show() {
+        var sh = document.getElementById('s');
+        var isTrue = sh.classList.toggle('fa-window-close');
 
+        var ul = document.getElementById('ul');
+        var nav = document.getElementById('navbar');
+        var li = document.querySelector('li');
+        const hvr = document.querySelector('.dropdown_menu');
+
+
+        if (isTrue == true) {
+          nav.style.display = "grid";
+          nav.style.placeContent = "left";
+          ul.style.display = "inline";
+          // hvr.style.hover="none"
+        }
+        else {
+
+          ul.style.display = "none";
+        }
+
+      }
+    </script>
 </body>
 
 </html>
