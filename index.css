@@ -55,8 +55,8 @@ body {
     display: flex;
     justify-content: space-around;
     text-align: center;
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
+    /* -webkit-backdrop-filter: blur(90px); */
+    backdrop-filter:#000; 
     z-index: 999;
 }
 
