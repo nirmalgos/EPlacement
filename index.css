@@ -128,6 +128,17 @@ li:hover .dropdown_menu {
     height: 1.7rem;
 }
 
+.prncpl{
+    width: 25vw;
+    height: 70vh;
+}
+.tpo{
+    width: 25vw;
+    height: 45vh;
+}
+
 /* About CSS */
 
-
+.abt_bvec p{
+    width: 80vw;
+}

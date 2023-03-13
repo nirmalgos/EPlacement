@@ -13,9 +13,10 @@ p{
     color: #000;
     font-weight: 550;
     font-size: 1.3rem; 
-    width: 80vw;
+    width: 55vw;
     margin: 0 auto;
     font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
 }
 
 .basic_mrgn {
@@ -38,12 +39,12 @@ p{
 .principal_msg{
     display: flex;
     justify-content: space-around;
-    margin: 1.5rem;
+    /* margin: 1.5rem; */
 }
 .tp_msg{
     display: flex;
     justify-content: space-around;
-    margin: 1.5rem;
+    /* margin: 1.5rem; */
 }
 
 @media screen and (max-width:760px) {
@@ -80,8 +81,7 @@ p{
     #navbar ul li::after {
         background: none;
     } 
-    p{ 
+    /* p{ 
         font-size: 3.7rem;
-
-    } 
+    }  */
 } 
