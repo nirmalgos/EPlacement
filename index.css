@@ -49,14 +49,14 @@ body {
 #navbar {
     position: fixed;
     width: 100%;
-    height: 1%;
-    margin: auto;
+    height: 2.3%;
+    margin: 0 auto;
     padding: 30px 0px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     text-align: center;
-    /* -webkit-backdrop-filter: blur(90px); */
-    backdrop-filter:#000; 
+    transition: all 0.8s;
     z-index: 999;
 }
 
@@ -95,10 +95,11 @@ body {
     position: absolute;
     top: 100%;
     background-color: #f9f9f9;
-    min-width: 165px; 
+    min-width: 165px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
     padding: 0;
+    border-radius: 10px;
 }
 
 li:hover .dropdown_menu {
@@ -114,31 +115,65 @@ li:hover .dropdown_menu {
     color: black;
 }
 
-.dropdown_menu :hover { 
-    background: #14cdee; 
+.dropdown_menu :hover {
+    background: #14cdee;
     transition: all 0.4s;
 }
+
 /* logo sizes */
-.cmpnylogo{
+.cmpnylogo {
     width: 5rem;
     height: 3rem;
 }
-.lnkdlgo{
+
+.lnkdlgo {
     width: 3rem;
     height: 1.7rem;
 }
 
-.prncpl{
-    width: 25vw;
-    height: 70vh;
+.qlnkimg{
+    width: 10rem;
+    height: 8rem;
 }
-.tpo{
+
+.prncpl {
     width: 25vw;
-    height: 45vh;
+    height: 90%;
+    border-radius: 10px;
+}
+
+.tpo {
+    width: 25vw;
+    height: 43vh;
+    border-radius: 10px;
+}
+
+/* quick links */
+.quick_lnk{
+    margin: 1rem 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    
+}
+.quick_lnk div{
+    text-align: center;
+    margin: 5vh 5vw;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+
 }
 
 /* About CSS */
 
-.abt_bvec p{
-    width: 80vw;
+.abt_bvec p {
+    width: 90vw;
+}
+
+/* footer */
+footer {
+    margin: 1rem 60px;
+    display: flex;
+    justify-content: space-between; 
 }
