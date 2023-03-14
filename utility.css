@@ -56,6 +56,10 @@ p{
     /* margin: 1.5rem; */
 }
 
+.reach_us{
+    display: flex;
+}
+
 @media screen and (max-width:760px) {
     .hero {
         background-size: 100% 100%;
