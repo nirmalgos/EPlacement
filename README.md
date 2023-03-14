@@ -41,7 +41,8 @@ Here students can check the current internship opportunities posted by the TPO.
 
 
 # PROPOSED BY GROUP NO 12:
-## BRIJ KUMAR GUPTA <br>
-## DEEP BAISHYA <br>
+
 ## DEEPJYOTI DAS <br>
 ## NIRMALENDU GOSWAMI
+## DEEP BAISHYA <br>
+## BRIJ KUMAR GUPTA <br>
