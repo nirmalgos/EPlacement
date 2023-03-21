@@ -23,7 +23,16 @@ p{
     font-family: 'Times New Roman', Times, serif;
     text-align: justify;
 }
-
+.flex_btwn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.flex_arnd{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 .active{
     background:rgba(0, 0, 0, 0.9);
 }
