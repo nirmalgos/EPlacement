@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: 'poppins', sans-serif;
+    font-family: 'Montserrat',Helvetica,Arial,sans-serif;
 }
 
 
@@ -39,8 +39,9 @@ body {
 .hero {
     width: 100%;
     height: 100vh;
-    background: url("./assets/images/bvec-bg-main.png");
+    background: url("./assets/images/Home.png");
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
 }
 
@@ -122,8 +123,33 @@ li:hover .dropdown_menu {
 
 /* logo sizes */
 .cmpnylogo {
-    width: 5rem;
-    height: 3rem;
+    padding-top: 90px;
+    width: 196.667px;
+    height: 5rem;
+}
+
+.about_bvec{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.about_bvec img{
+    width: 380px;
+    height: 20%;
+}
+
+.about_bvec_para{
+    margin: 30px;
+    margin-top: 30px;
+    font-size: 1rem;
+    font-weight: 100;
+    letter-spacing: 0.1rem;
+    line-height: 1.7em;
+    color: #242424;
+    font-family: 'Montserrat',Helvetica,Arial,sans-serif;
 }
 
 .lnkdlgo {
@@ -148,7 +174,18 @@ li:hover .dropdown_menu {
     border-radius: 10px;
 }
 
+.PlcmntRcrd_header{
+    margin-top: 70px;
+}
+
+mark{
+    background-color: #ff0;
+    padding: 0.2em;
+    font-weight: 100;
+}
+
 /* quick links */
+/* 
 .quick_lnk{
     margin: 1rem 60px;
     display: grid;
@@ -163,13 +200,162 @@ li:hover .dropdown_menu {
     margin: 5vh 5vw;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 
-}
+} */
 
 /* About CSS */
 
 .abt_bvec p {
-    width: 90vw;
+    width: 80vw;
 }
+
+
+.grid{
+    display: inline-block;
+    padding-top: 5rem;
+    /* margin: 1rem; */
+    /* padding-left: 55px; */
+    margin-left: 60px;
+    width: 25em;
+    /* grid-gap: 70rem; */
+    grid-template-columns: repeat(auto-fit,minimum(30rem, 1fr));
+}
+
+.grid-item{
+    /* background: url("./images/card\ bg1.jpg"); */
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(195,182,255,1) 0%, rgba(252,252,252,1) 77%);
+    border-radius: 0.6rem;
+    overflow: hidden;
+    box-shadow: 0 3rem 6rem rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.grid-item-brochures{
+    background: rgb(249,238,140);
+    background: linear-gradient(113deg, rgba(249,238,140,1) 0%, rgba(252,252,252,1) 77%);
+    border-radius: 0.6rem;
+    overflow: hidden;
+    box-shadow: 0 3rem 6rem rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.grid-item-policies{
+    background: rgb(132,216,245);
+    background: linear-gradient(113deg, rgba(132,216,245,1) 0%, rgba(252,252,252,1) 77%);
+    border-radius: 0.6rem;
+    overflow: hidden;
+    box-shadow: 0 3rem 6rem rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.grid-item-placement-coordinators {
+    background: rgb(245,132,243);
+    background: linear-gradient(113deg, rgba(245,132,243,1) 0%, rgba(252,252,252,1) 77%);
+    border-radius: 0.6rem;
+    overflow: hidden;
+    box-shadow: 0 3rem 6rem rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.grid-item-placement-internship-noc{
+    background: rgb(254,160,160);
+    background: linear-gradient(113deg, rgba(254,160,160,1) 0%, rgba(252,252,252,1) 77%);
+    border-radius: 0.6rem;
+    overflow: hidden;
+    box-shadow: 0 3rem 6rem rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.grid-item-placement-placement-reports{
+    background: rgb(153,197,255);
+    background: linear-gradient(113deg, rgba(153,197,255,1) 0%, rgba(252,252,252,1) 77%);   
+    border-radius: 0.6rem;
+    overflow: hidden;
+    box-shadow: 0 3rem 6rem rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.card-img{
+    display: block;
+    width: 100%;
+    height: 10rem;
+    object-fit: cover;
+}
+
+.card-content{
+    padding: 2rem;
+    /* display: block; */
+}
+
+.card-header{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #000000;
+    margin-bottom: 1rem;
+}
+
+.card-text{
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+    line-height: 1.7;
+    color: #242424;
+    margin-bottom: 2rem;
+}
+
+.card-btn{
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    text-align: center;
+    color: #232323;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 100px;
+    transition: 0.3s;
+    cursor: pointer;
+    letter-spacing: 0.1rem;
+
+}
+
+.card-btn:hover{
+    background: white;
+    color: black;
+}
+
+@media screen and (max-width: 767px) {
+   
+    .hero {
+            width: 100%;
+            height: 100vh;
+            background: url("./assets/images/Mobile\ screen\ Background\ 3d\ gradient\ blue-01.jpeg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+    .about_bvec{
+        display: block;
+    }
+
+    .about_bvec img{
+        width: 320px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .grid{
+        display: block;
+        width: 90%;
+        margin-left: 50px;
+    }
+
+    }
 
 /* footer */
 footer {

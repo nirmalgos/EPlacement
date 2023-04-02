@@ -3,18 +3,18 @@ a{
 }
 
 h1 {
-    color: #012970;
+    color: #000000;
     font-weight: 700;
     font-size: 30px;
     text-align: center;
 }
 
-h5{ 
+/* h5{ 
         color: #9e9797;
         line-height: 24px; 
-}
+} */
 
-p{
+/* p{
     color: #000;
     font-weight: 550;
     font-size: 1.2rem; 
@@ -22,7 +22,7 @@ p{
     margin: 0 auto;
     font-family: 'Times New Roman', Times, serif;
     text-align: justify;
-}
+} */
 .flex_btwn{
     display: flex;
     align-items: center;

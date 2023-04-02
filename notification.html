@@ -63,14 +63,15 @@
                 </ul>
             </nav>
         </header>
-
+        <br><br><br><br>
         <section class="PlcmntRcrd basic_mrgn">
             <div align="center">
                 <h1>NOTIFICATION</h1>
             </div>
             <marquee direction="up" class="flex_arnd notices">
                 <h3><a href="https://bvec.ac.in/upload/notification/1665655746.pdf">Notification for attending
-                        Orientation program for the B.Tech first semester students </a> <span><img src="https://bvec.ac.in/images/new.gif" alt=""></span></h3>
+                        Orientation program for the B.Tech first semester students </a> <span><img
+                            src="https://bvec.ac.in/images/new.gif" alt=""></span></h3>
                 <h3><a href="https://bvec.ac.in/upload/notification/1666853181.pdf">Spot admission notification for JLEE
                         2022 appeared candidates </a></h3>
                 <h3><a href="https://bvec.ac.in/upload/notification/1665403799.pdf">Notice of lateral admitted students
@@ -101,41 +102,7 @@
 
         <!-- Javascript section -->
         <script src="https://kit.fontawesome.com/c5009e06c9.js" crossorigin="anonymous"></script>
-        <script>
-            // toggle of navbar on mobile show hide-responsiveness
-            function show() {
-                var sh = document.getElementById('s');
-                var isTrue = sh.classList.toggle('fa-window-close');
-
-                var ul = document.getElementById('ul');
-                var nav = document.getElementById('navbar');
-                var li = document.querySelector('li');
-                const hvr = document.querySelector('.dropdown_menu');
-
-
-                if (isTrue == true) {
-                    nav.style.display = "grid";
-                    nav.style.placeContent = "left";
-                    ul.style.display = "inline";
-                }
-                else {
-                    ul.style.display = "none";
-                }
-
-            }
-        </script>
-
-        <!-- Navabar bg changes on scroll -->
-        <script>
-            window.addEventListener("scroll", function () {
-                var navbar = document.getElementById("navbar");
-                if (window.pageYOffset > 50) {
-                    navbar.classList.add("active");
-                } else {
-                    navbar.classList.remove("active");
-                }
-            });
-        </script>
+        <script src="script.js"></script>
 
 </body>
 
