@@ -36,6 +36,9 @@
     text-align: center;
   }
   
+   .p_data {
+    margin: 1rem;
+  }
   .controls button {
     background: none;
     border: none;
@@ -119,14 +122,7 @@
       padding: 8px 16px;
     }
   }
-
-  @media only screen and (max-width: 768px) {
-    .icon-btn1 {
-      font-size: 14px;
-      padding: 8px 16px;
-    }
-  }
-   
+ 
   footer {
     margin: 1rem 60px;
     display: flex;
