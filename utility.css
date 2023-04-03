@@ -38,8 +38,8 @@ h1 {
 }
 
 .basic_mrgn {
-    font-weight: 700;
-    font-size: 23px;
+    /* font-weight: 700;
+    font-size: 23px; */
     margin: 1.5rem;
 }
 
@@ -67,7 +67,7 @@ h1 {
 
 .reach_us{
     display: flex;
-    margin: 1.5rem ;
+    /* margin: 1.5rem ; */
     align-items: center;
     justify-content: space-between;
 }
@@ -109,5 +109,5 @@ h1 {
     .quick_lnk{ 
         grid-template-columns: 1fr;
 
-    } 
+    }
 } 
