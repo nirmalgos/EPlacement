@@ -1,56 +1,59 @@
-*{
-margin: 0px;
-padding: 0px;
-font-family: 'poppins', sans-serif;
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'poppins', sans-serif;
 }
-/* h1{
-    
-    color: #012970;
-    font-weight: 700;
-    font-size: 30px;
-} */
 
-#navbar{
+
+#navbar {
     background: rgba(0, 0, 0, 0.9);
 }
 
-.academic h1{
-text-align: center;
-padding: 25px 0px;
+.academic h1 {
+    text-align: center;
+    padding: 25px 0px;
 }
 
-.container{
+.container {
     width: 1170px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
-.container-items{
+
+.container-items {
     flex-basis: 23%;
     margin: 10px 0px;
     border-radius: 0.6rem;
-    transition:all 0.5s;
+    transition: all 0.5s;
     text-align: center;
     padding: 20px 0px;
+    position: relative;
     box-shadow: 0px 0px 10px 3px lightgrey;
 }
-.container-items img{
+
+.container-items img {
     height: 50px;
-    width:50px;
+    width: 50px;
 }
 
-.container-items h3{
+.container-items h3 {
     padding: 10px 0px;
 }
 
-.container-items p{
+.container-items p {
     font-size: 14px;
     text-align: justify;
     padding: 20px;
+    margin-bottom: 1.5rem;
 }
 
-.container-items button{
+.container-items button {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
     background: #08383a9e;
     padding: 10px 25px;
     border: none;
@@ -61,29 +64,30 @@ padding: 25px 0px;
 
 
 
-.container-items:hover{
+.container-items:hover {
     cursor: pointer;
     background: rgba(35, 61, 71, 0.705);
 }
 
-.container-items:hover h3, .container-items:hover p{
+.container-items:hover h3,
+.container-items:hover p {
     color: whitesmoke;
 }
 
-.container-items:hover button{
+.container-items:hover button {
     background: whitesmoke;
     color: rgb(15, 4, 4);
     cursor: pointer;
 }
 
 
-@media only screen and (min-width: 200px) and (max-width: 767px){
-    .container{
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+    .container {
         width: 100%;
         flex-direction: column;
     }
 
-    .container-items{
+    .container-items {
         margin: 10px;
     }
 }
