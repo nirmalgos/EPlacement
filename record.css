@@ -1,0 +1,134 @@
+.rec {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    background-color: #4285F4;
+    padding: 10px;
+    margin-bottom: 20px; 
+  } 
+  #navbar{
+    background: rgba(0, 0, 0, 0.9);
+}
+  .slider {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .slider-wrapper {
+    width: 400%;
+    position: relative;
+    left: 0;
+    animation: slide 12s infinite;
+  }
+  
+  .slider-wrapper img {
+    width: 25%;
+    float: left;
+  }
+  
+  .controls {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .controls button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .prev {
+    position: absolute;
+    left: 0;
+  }
+  
+  .next {
+    position: absolute;
+    right: 0;
+  }
+  
+  @keyframes slide {
+    0% {
+      left: 0;
+    }
+    25% {
+      left: 0;
+    }
+    30% {
+      left: -100%;
+    }
+    55% {
+      left: -100%;
+    }
+    60% {
+      left: -200%;
+    }
+    85% {
+      left: -200%;
+    }
+    90% {
+      left: -300%;
+    }
+    100% {
+      left: -300%;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .slider-wrapper img {
+      width: 33.33%;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .slider-wrapper img {
+      width: 50%;
+    }
+  }
+  .p_data{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .icon-btn {
+     
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #333333;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer; 
+  }
+   
+   
+  
+  @media only screen and (max-width: 768px) {
+    .icon-btn {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .icon-btn1 {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  }
+   
+  footer {
+    margin: 1rem 60px;
+    display: flex;
+    justify-content: space-between; 
+}
