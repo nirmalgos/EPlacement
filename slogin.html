@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Login to use T&P Cell BVEC</title>
+</head>
+
+<body id="sign-in-body">
+    <div class="container">
+        <div class="login-left">
+            <div class="login-header">
+                <h1>Welcome to T&P Cell BVEC</h1>
+                <p>Please login to use EnLib</p>
+                <p class="error-msg">Invalid email or password. Please try again.</p>
+            </div>
+
+            <form class="login-form">
+
+                <div class="login-form-content">
+                    <div class="input-control">
+                        <label for="email">Enter Email</label>
+                        <input type="text" id="email">
+                    </div>
+                    <div class="input-control" id="pass">
+                        <label for="password">Enter Password</label>
+                        <input type="password" id="password">
+                    </div>
+                    <div class="input-control">
+                        <div class="checkbox">
+                            <input type="checkbox" id="rememberMeCheckbox"> Remember Me
+                            <!-- <label for="rememberMeCheckbox" id="checkboxLabel">Remember me</label> -->
+                        </div>
+
+
+            </form>
+        </div>
+        <button class="btn-sign-in" type="submit">Sign In</button>
+    </div>
+    <a href="../forgot-pass/forgot.html">
+        <p>Forgot Password?</p>
+    </a>
+    <h4>Do not have an account?</h4>
+        <a href="createacc.html"> <button class="btn-sign-up">Create Account</button></a>
+    </div>
+    <!-- <div class="login-right">
+        <img src="./books.png" alt="">
+    </div> -->
+
+</body>
+
+</html>
