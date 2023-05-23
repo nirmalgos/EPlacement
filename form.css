@@ -1,9 +1,9 @@
-/*common css for all form*/
+/* 
 *{
     box-sizing: border-box;
-}
+} */
 
-.container{
+.container-form{
     min-height: calc(100vh - 40px * 1);
     /* height: 50%; */
     display: grid;
@@ -19,8 +19,9 @@
     display: flex;
     flex-direction: column;
     justify-content: content;
-    padding-left: 120px;
-    padding-right: 106px;
+    padding: 50px;
+    padding-left: 80px;
+    /* padding-right: 106px; */
     background-color: white;
 }
 
@@ -56,7 +57,7 @@ input[type='text']{
     width: 100%;
     outline: none;
     transition: background .6s;
-    font-size: 18px;
+    font-size: 13px;
     border-radius: 100px;
 }
 
@@ -67,7 +68,7 @@ input[type='password']{
     width: 100%;
     outline: none;
     transition: background .5s;
-    font-size: 18px;
+    font-size: 13px;
     border-radius: 100px;
 }
 
@@ -77,7 +78,7 @@ input[type="email"] {
     height: 45px;
     padding: 0 2rem;
     outline: none;
-    font-size: 18px;
+    font-size: 13px;
     border-radius: 100px;
     margin-bottom: 20px;
 }
@@ -98,7 +99,7 @@ input[type="checkbox"]{
     border:none;
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(33,9,121,1) 35%, rgba(0,212,255,1) 100%);
     color: white;
-    width: 100%;
+    width: 114%;
     padding: 1rem;
     border-radius: 100px;
     text-align: center;
@@ -109,13 +110,34 @@ input[type="checkbox"]{
     transition: all 0.3s ease-in-out;
 }
 
-footer .sign-in{
+
+.btn-sign-in1{
+    border:none;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(33,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    color: white;
+    width: 95%;
+    padding: 1rem;
+    border-radius: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    height: 55px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+/* footer .sign-in{
     width: 86%;
 }
 
 footer .sign-up{
     width: 86%;
-}
+} */
+
+/* .forgot-pass{
+    height: 70px;
+    margin-top: 35px;
+} */
 
 .btn-sign-in:hover{
     /* transform: scale(1.03); */
@@ -128,7 +150,23 @@ footer .sign-up{
     border:none;
     background: linear-gradient(125deg, rgba(251,63,149,1) 38%, rgba(70,83,252,1) 84%);
     color: white;
-    width: 100%;
+    width: 94%;
+    padding: 1rem;
+    border-radius: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    height: 55px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.btn-sign-up1{
+    border:none;
+    background: linear-gradient(125deg, rgba(251,63,149,1) 38%, rgba(70,83,252,1) 84%);
+    color: white;
+    width: 114%;
     padding: 1rem;
     border-radius: 100px;
     text-align: center;
@@ -187,9 +225,6 @@ footer .sign-up{
     .container{
         grid-template-columns: auto;
     }
-    .login-right{
-        display:none;
-    }
     .sign-in{
         width: 100%;
     }
@@ -207,7 +242,7 @@ footer .sign-up{
 .login-form-content{
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 40px;
 }
 
 .input-control label{
@@ -232,8 +267,8 @@ footer .sign-up{
     font-family: 'poppins', sans-serif;
     background: linear-gradient(125deg, rgba(251,63,149,1) 38%, rgba(70,83,252,1) 84%);
     padding: 40px;
-    width: 100%;
-    height: 120vh;
+    width: 94%;
+    height: 100vh;
 }
 
 .signup-form-content{
